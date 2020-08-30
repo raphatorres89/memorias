@@ -9,9 +9,9 @@ export default function Carousel({ images }) {
 
   return (
     <div className="carousel">
-      {images.map(({ src, alt }) => (
-        <a key={alt} className="carousel-item" href="!#">
-          <img src={src} alt={alt} />
+      {images.map(({ src, ano }) => (
+        <a key={ano} className="carousel-item" href="!#">
+          <img src={src} alt={ano} />
         </a>
       ))}
     </div>

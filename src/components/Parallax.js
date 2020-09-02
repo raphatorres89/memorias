@@ -19,7 +19,7 @@ export default function Paralax({ images }) {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src={second} alt={second} />
+          <img src={second} alt={second} style={{ maxWidth: 600 }} />
         </div>
       </div>
 
@@ -30,7 +30,7 @@ export default function Paralax({ images }) {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src={first} alt={first} />
+          <img src={first} alt={first} style={{ maxWidth: 980 }} />
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from './Slider';
 import Paralax from './Parallax';
+import Toast from './Toast';
 
 export default function Feed() {
   const sliderImages = [
@@ -19,6 +20,11 @@ export default function Feed() {
     <div>
       <Slider images={sliderImages} />
       <Paralax images={paralaxImages} />
+      <div style={{ padding: 20 }} />
+      <Toast
+        label={'Clique em mim :D'}
+        text={'Não esquece que todo dia 15 é nosso dia <3'}
+      />
       <p>Ainda estou construindo :D</p>
     </div>
   );
